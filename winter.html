@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зима</title>
+    <style>
+        #table1 table {
+            padding: 50px;
+            padding-top: 5px;
+            border-spacing: 15px;
+            /* border-collapse: collapse; */
+        }
+        #table1 td {
+            padding: 15px;
+            border: 5px solid blue;
+            border-radius: 50%;
+        }
+        #table1 {
+            background-color: beige;
+            padding: 15px;
+            width: fit-content;
+            margin-left: 50%;
+            border-radius: 20px;
+            border: 10px groove blue;
+        }
+        #table2 {
+            background-color: beige;
+            padding: 15px 30px;
+            width: fit-content;
+            margin-left: 75%;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: 10px groove blue;
+        }
+        #table2 table {
+            border-collapse: collapse;
+        }
+        #table2 td {
+            padding: 15px;
+            border: 5px solid blue;
+        }
+        #galary {
+            padding: 20px;
+            background-color: beige;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #galary h2 {
+            text-align: center;
+        }
+        #galary img {
+            width: 22%;
+            height: 250px;
+            object-fit: cover;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+        .video {
+            text-align: center;
+            margin-top: 30px;
+        }
+        #snow1 {
+            position: absolute;
+            top: 50px;
+            left: 20%;
+            animation: down 5s infinite;
+        }
+        #snow2 {
+            position: absolute;
+            top: 60px;
+            left: 30%;
+            animation: down 6s infinite;
+        }
+        #snow3 {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            animation: down 7s infinite;
+        }
+        #snow4 {
+            position: absolute;
+            top: 50px;
+            left: 70%;
+            animation: down 4s infinite;
+        }
+        @keyframes down {
+            from {
+                transform: translateY(0) rotate(0) scale(1);
+                opacity: 1;
+            }
+            to {
+                transform: translateY(200vh) rotate(360deg) scale(0.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="
+    color: aquamarine; 
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px green;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    ">Зима 2024</h1>
+    <p 
+    style="
+    background-color: beige;
+    width: fit-content;
+    padding: 40px;
+    margin-left: 10%;
+    margin-top: -50px;
+    border-radius: 8px;
+    transform: rotate(5deg) skew(5deg);">
+        Зимний сон<br>
+        Мне ночью снились горы…<br>
+        Высокая гора,<br>
+        Та самая, с которой<br>
+        Катались мы вчера.<br>
+        Мы до деревни ближней<br>
+        Неслись по целине,<br>
+        И ночью снег и лыжни,<br>
+        Блестящий снег и лыжни<br>
+        Всё время снились мне.
+    </p>
+    <div style="
+    background-color: beige;
+    width: fit-content;
+    padding: 40px;
+    margin-left: 30%;
+    margin-top: -50px;
+    border-radius: 20px;">
+    <h2>Признаки зимы:</h2>
+    <ul
+    style="
+    list-style-type: none;"
+    >
+        <li style="
+        background-image: url(images/snow-flake-icon_34353\ \(1\).png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-position: left center;
+        ">Снег</li>
+        <li style="
+        background-image: url(images/storm_blizzards_blizzard_frost_snowstorm_snow_icon_220108.png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-position: left center;
+        ">Метель</li>
+        <li style="
+        background-image: url(images/ice_climate_1467.png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-position: left center;
+        ">Гололед</li>
+        <li style="
+        background-image: url(images/52754skis_109407.png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-position: left center;
+        ">Лыжи</li>
+        <li style="
+        background-image: url(images/happy_new_year_icon_128545.png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-position: left center;
+        ">Новый год</li>
+    </ul>
+    </div>
+    <div id="table1">
+    <table>
+        <caption><h2>Календарь зимы</h2></caption>
+        <tr>
+            <td>Декабрь</td>
+            <td>31 день</td>
+        </tr>
+        <tr>
+            <td>Январь</td>
+            <td>31 день</td>
+        </tr>
+        <tr>
+            <td>Февраль</td>
+            <td>29 день</td>
+        </tr>
+    </table>
+    </div>
+    <div id="table2">
+        <table>
+            <caption> <h2>Праздники зимы</h2></caption>
+            <tr>
+                <td>Декабрь</td>
+                <td>12 - день Конституции РФ</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Январь</td>
+                <td>1 - Новый год</td>
+            </tr>
+            <tr>
+                <td>7 - Рождество</td>
+            </tr>
+            <tr>
+                <td>14 - Старый Новый год</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Февраль</td>
+                <td>14 - День Святого Валентина</td>
+            </tr>
+            <tr>
+                <td>23 - День Защитника Отечества</td>
+            </tr>
+        </table>
+    </div>
+    <div id="galary">
+        <h2>Галерея зимы:</h2>
+        <img src="images/alsu-vershinina-lN8qMg4o6AE-unsplash.jpg" alt="">
+        <img src="images/tatiana-rudneva-Q8BdCxl8jkc-unsplash.jpg" alt="">
+        <img src="images/natali_project-sCJJWeUUWx8-unsplash.jpg" alt="">
+        <img src="images/glib-albovsky-a-0Qsar9rBg-unsplash.jpg" alt="">
+    </div>
+    <div class="video">
+        <video autoplay loop controls src="video/_import_61dfb84e5919f8.23251026.mp4"></video>
+        <!-- muted -->
+    </div>
+    <div class="video">
+        <audio controls src=""></audio>
+    </div>
+    <img id="snow1" src="images/weather_cold_snowflake_icon_128649 (1).png" alt="">
+    <img id="snow2" src="images/weather_cold_snowflake_icon_128649 (1).png" alt="">
+    <img id="snow3" src="images/weather_cold_snowflake_icon_128649 (1).png" alt="">
+    <img id="snow4" src="images/weather_cold_snowflake_icon_128649 (1).png" alt="">
+</body>
+</html>
